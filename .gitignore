@@ -1,0 +1,26 @@
+# Build outputs
+build/
+*.o
+*.d
+*.a
+*.so
+*.dylib
+*.exe
+
+# Generated render outputs
+results/
+animation*.gif
+animation*.mp4
+
+# Xcode local state
+*.xcuserstate
+*.xcuserdata/
+*.xcuserdatad/
+DerivedData/
+
+# macOS metadata
+.DS_Store
+
+# Local Codex/agent metadata
+.agents/
+.codex/
